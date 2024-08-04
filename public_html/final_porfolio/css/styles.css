@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h2 {
+    color: black;  /* Change color to black */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: #00bcd4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: black;
+    font-size: 1rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 1rem 0;
+    margin-bottom: 2rem; 
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Title Section */
+#title {
+    background-color: #00bcd4;
+    color: white;
+    padding: 5% 0;
+    padding-top: 2rem; 
+}
+
+.title-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* About Section */
+#about {
+    padding: 4% 0;
+    background-color: #fcf2f2;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 4% 0;
+    background-color: #fcf2f2;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    height: 600px; 
+    object-fit: cover;  
+    border-radius: 8px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+/* Skills Section */
+#skills {
+    padding: 2% 0;
+    background-color: white;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skill i {
+    color: #00bcd4;
+    margin-bottom: 1rem;
+}
+
+.skill h4 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+/* Experience Section */
+#experience {
+    padding: 4% 0;
+    background-color: white;
+}
+
+.job {
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    position: relative;
+    padding: 20px;
+}
+
+.card-title, .card-body h4 {
+    margin-bottom: 10px;
+}
+
+.company-logo {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 80px; 
+    height: auto;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4% 0;
+    background-color: #fcf2f2;
+    text-align: center;
+}
+
+.social-icon {
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #00bcd4;
+}
+
+/* Footer Section */
+#footer {
+    padding: 2% 0;
+    text-align: center;
+    background-color: #00bcd4;
+    color: white;
+}
